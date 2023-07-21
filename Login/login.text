@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,400;0,500;0,600;0,800;1,200;1,300;1,500;1,600;1,700&display=swap');
+body{
+    /* background-image: url('../Assets/images/Pattern.png'); */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.setting{
+    cursor: pointer;
+}
+.theme{
+    height: fit-content;
+    font-size: small;
+    display: flex;
+    /* flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-items: center; */
+    margin-left: 35%;
+    margin-top: 1em;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: .5em;
+    color: white;
+    background-color: #6c757d;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-box{
+    margin-top: 8em;
+    border: 1px solid black;
+    border-radius: .5em;
+    height: auto;
+    width: 20em;
+    /* background: rgba(0, 0, 0, 0.39);
+    background: circle, rgba(0,0,0,1) 0%, rgba(251, 251, 251, 0.603) 100%);} */
+    background-color: rgba(255, 255, 255, 0.795);
+}
+header{
+    padding: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    border: 1px solid white;
+    border-radius: .5em;
+}
+#settings-window {
+    padding: 1em;
+    position: absolute;
+    top: 60px; /* Adjust the positioning as needed */
+    right: 10px; /* Adjust the positioning as needed */
+    width: 200px; /* Adjust the width as needed */
+     /* Adjust the height as needed */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .5em;
+    display: none;
+    text-align: center;
+    z-index: 999; /* Ensure the settings window is on top of other elements */
+  }
+  
+
+
+
+
+
+footer{
+    margin-top: 10em;
+    font-size: small;
+    background-color: black;
+    color: white;
+}
